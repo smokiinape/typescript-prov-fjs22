@@ -1,4 +1,4 @@
-// UPPGIFT: Skapa en egen sammansatt typ Book som representerar en bok. Byt ut any mot passande typer. 
+// DIN UPPGIFT: Skapa en egen sammansatt typ Book som beskriver en bok. Byt ut any mot passande typer. 
 // Kompilera TS-koden och se att den fortfarande fungerar som den ska. / 2 poäng
 
   const book: any = {

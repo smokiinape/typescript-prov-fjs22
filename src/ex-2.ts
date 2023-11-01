@@ -1,7 +1,7 @@
 // DIN UPPGIFT: Byt ut implicita any mot explicita typer och ändra felaktiga värden så att koden kompilerar utan några Typescript-felmeddelanden / 2 poäng
-// Kompilera TS-koden och se att den fortfarande fungerar som den ska.
 
-// Ett program som slumpar fram aktiviteter för en grupp gäster :-)
+
+// Detta är ett program som slumpar fram aktiviteter för en grupp gäster :-)
 let remainingGuests = 20;
 
 while (true) {

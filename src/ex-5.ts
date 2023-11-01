@@ -1,4 +1,4 @@
-// UPPGIFT: Skapa en egen sammansatt typ som representerar en stockMeasurements. Byt ut any mot passande typer / 2 poäng
+// UPPGIFT: Skapa en egen sammansatt typ som beskriver stockMeasurements. Byt ut any mot passande typer / 2 poäng
 // Kompilera TS-koden och se att den fortfarande fungerar som den ska.
 
 const getRisingStockDays = (stockMeasurements: any): any =>

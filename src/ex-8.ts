@@ -1,4 +1,4 @@
-// DIN UPPGIFT: Använda enums för att skapa olika användarroller som ska vara Admin, Member eller Guest. 
+// DIN UPPGIFT: Använda enums för att skapa olika användarroller som ska vara "Admin", "Member" eller "Guest". 
 // Du ska även implementera funktionen assignBadgeColor som ska returnera en färg baserat på rollen. 
 // Admin ska returnera "Red", Member ska returnera "Blue" och Guest ska returnera "Green". / 3 poäng
 

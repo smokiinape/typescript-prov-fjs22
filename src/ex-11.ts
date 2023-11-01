@@ -11,7 +11,7 @@ type Student = {
 
 //1. Skapa en typ PartialStudent som representerar ett objekt där alla fält i Student är valfria.
 
-//2. Skapa en typ RequiredStudent där alla fält i Student, inklusive de som ursprungligen var valfria, nu är obligatoriska.
+//2. Skapa en typ RequiredStudent där alla fält i Student ska vara obligatoriska.
 
 //3. Skapa en typ StudentWithoutAddress som är lik Student, men utan address-fältet.
 
