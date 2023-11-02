@@ -15,4 +15,31 @@ const heightInM = pokemon.height / 10;
 const bmi = weightInKg / (heightInM * heightInM);
 */
 
+import axios from 'axios';
+import { z } from 'zod';
 
+
+const UserSchema = z.object({
+    id: z.number(),
+    name: z.string(),
+    email: z.string().email(),
+  });
+
+
+
+  
+const apiResponse = {
+    id: 
+    name: 
+    email: 
+};
+
+  
+  // 7h, validate the data, Now, you can validate the incoming data against your Zod schema:
+
+try {
+    const validatedData = UserSchema.parse(apiResponse);
+  console.log("Validated data:", validatedData);
+  } catch (error) {
+    console.error("Validation error:", error);
+}

@@ -8,9 +8,9 @@ while (true) {
 	// Varje grupp ska ha mellan 5 och 10 gäster.
 	const guestsToAssign = Math.floor(Math.random() * 5) + 5;
 
-	let activity; 
-	let capacity; 
-	let requiresSupplies;
+	let activity; String;
+	let capacity; Number;
+	let requiresSupplies; Boolean;
 
 	switch (Math.floor(Math.random() * 5)) {
 		case 0:

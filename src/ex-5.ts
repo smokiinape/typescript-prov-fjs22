@@ -1,7 +1,15 @@
 // UPPGIFT: Skapa en egen sammansatt typ som beskriver stockMeasurements. Byt ut any mot passande typer / 2 poäng
 // Kompilera TS-koden och se att den fortfarande fungerar som den ska.
 
-const getRisingStockDays = (stockMeasurements: any): any =>
+interface stockMeasurements{
+  filter(arg0: (data: any) => boolean): void;
+  day: string;
+  price: number;
+}
+
+
+
+const getRisingStockDays = (stockMeasurements: stockMeasurements): void =>
   stockMeasurements.filter((data: any) => data.price > 100);
 
 const stockMeasurements: any = [

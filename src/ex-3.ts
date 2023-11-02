@@ -1,10 +1,17 @@
 // DIN UPPGIFT: Använd dig av unions för att skapa en typ Role som möjliggör alternativen i switch-satsen. Byt ut any mot passande typer.
 // Kompilera TS-koden och se att den fortfarande fungerar som den ska. / 2 poäng
 
+interface Role{
+ Title: string
+}
 
-  const role: any = "Manager";
 
-  const describeRole = (role: any): any => {
+
+const role: string = "Manager";
+
+  
+
+  const describeRole = (role: string):  any=> {
     switch (role) {
       case "Employee":
         console.log("You are an employee.");
@@ -18,4 +25,4 @@
     }
   };
 
-  describeRole(role);
+describeRole(role);
