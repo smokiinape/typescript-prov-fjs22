@@ -2,7 +2,7 @@
 
 **Tid 9.30 - 12.00 torsdag 2 november i sal 5.**
 
-**Totalpoäng 45 poäng varav 25 poäng godkänd och 45 poäng Väl godkänd.**
+**Totalpoäng 45 poäng varav 25 poäng godkänd och 40 poäng Väl godkänd.**
 
 **Hjälpmedel:** Google, Typescript documentation, Zod dokumentation
 
